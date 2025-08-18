@@ -34,4 +34,4 @@ Built with **HTML, Vanilla JS (async/await, fetch API), and TailwindCSS**.
 ## 💻 Usage
 1. Clone this repo  
    ```bash
-   git clone https://github.com/sachin058/git-user-finder.git
+   git clone https://github.com/sachin058/github-user-finder.git
