@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub User Finder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
+
+  <div class="bg-gray-800 p-8 rounded-2xl shadow-lg w-full max-w-md text-center">
+    <h3 class="text-2xl font-bold mb-4">🔍 Get user info on GitHub</h3>
+
+    <div class="flex items-center gap-2 mb-6">
+      <input id="input" 
+             class="flex-1 px-4 py-2 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500" 
+             placeholder="Enter GitHub username" />
+      <button id="button" 
+              class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg">
+        Submit
+      </button>
+    </div>
+
+    <h3 class="text-xl font-semibold mb-3">👤 User Details</h3>
+    <p id="none" class="text-red-400 mb-2"></p>
+
+    <div class="space-y-2 text-left bg-gray-700 p-4 rounded-lg">
+      <p id="name"></p>
+      <p id="gitid"></p>
+      <p id="login"></p>
+      <p id="repos"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
