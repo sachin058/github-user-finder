@@ -19,11 +19,6 @@ Built with **HTML, Vanilla JS (async/await, fetch API), and TailwindCSS**.
 
 ---
 
-## 📸 Screenshot
-(Add a screenshot here once you take one!)
-
----
-
 ## ⚙️ Tech Stack
 - HTML
 - JavaScript (Fetch API, Async/Await)
